@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" fill="none">
+  <rect width="300" height="200" fill="#f8fafc"/>
+  
+  <!-- Open book with pages -->
+  <path d="M50,140 C50,120 50,80 50,60 C70,50 100,50 150,60 C200,50 230,50 250,60 C250,80 250,120 250,140 C230,130 200,130 150,140 C100,130 70,130 50,140 Z" fill="#e2e8f0" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- Book binding and pages -->
+  <path d="M150,60 L150,140" stroke="#0f172a" stroke-width="2"/>
+  <path d="M60,65 L140,65" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M60,75 L140,75" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M60,85 L140,85" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M60,95 L140,95" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M60,105 L140,105" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M60,115 L140,115" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M60,125 L140,125" stroke="#94a3b8" stroke-width="1"/>
+  
+  <path d="M160,65 L240,65" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M160,75 L240,75" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M160,85 L240,85" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M160,95 L240,95" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M160,105 L240,105" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M160,115 L240,115" stroke="#94a3b8" stroke-width="1"/>
+  <path d="M160,125 L240,125" stroke="#94a3b8" stroke-width="1"/>
+  
+  <!-- Magnifying glass (represents research) -->
+  <circle cx="200" cy="50" r="20" fill="none" stroke="#3b82f6" stroke-width="3"/>
+  <line x1="185" y1="65" x2="170" y2="80" stroke="#3b82f6" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Light bulb (represents knowledge) -->
+  <circle cx="100" cy="50" r="15" fill="#fcd34d" stroke="#0f172a" stroke-width="2"/>
+  <path d="M100,65 L100,75 M95,75 L105,75" stroke="#0f172a" stroke-width="2"/>
+  <path d="M85,45 L90,50 M115,45 L110,50 M90,35 L95,40 M110,35 L105,40" stroke="#0f172a" stroke-width="1.5"/>
+  
+  <!-- Text -->
+  <text x="150" y="175" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="bold">Knowledge is Power</text>
+</svg>

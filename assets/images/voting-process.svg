@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200" fill="none">
+  <rect width="300" height="200" fill="#f8fafc"/>
+  
+  <!-- Process flow diagram -->
+  <circle cx="75" cy="60" r="25" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="150" cy="100" r="25" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="225" cy="60" r="25" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="225" cy="140" r="25" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Arrows connecting steps -->
+  <path d="M95,70 L130,90" stroke="#0f172a" stroke-width="2" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M175,95 L205,75" stroke="#0f172a" stroke-width="2" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"/>
+  <path d="M225,85 L225,115" stroke="#0f172a" stroke-width="2" stroke-linecap="round" fill="none" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#0f172a"/>
+    </marker>
+  </defs>
+  
+  <!-- Icons in circles -->
+  <text x="75" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">Register</text>
+  <text x="150" y="105" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">Research</text>
+  <text x="225" y="65" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">Vote</text>
+  <text x="225" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" fill="#1e293b">Results</text>
+  
+  <!-- Voter -->
+  <circle cx="50" cy="140" r="15" fill="#e2e8f0" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="50" y1="155" x2="50" y2="175" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="35" y1="165" x2="65" y2="165" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="25" y1="185" x2="50" y2="175" stroke="#0f172a" stroke-width="1.5"/>
+  <line x1="75" y1="185" x2="50" y2="175" stroke="#0f172a" stroke-width="1.5"/>
+  
+  <!-- Title -->
+  <text x="150" y="25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1e293b" font-weight="bold">The Voting Process</text>
+</svg>
